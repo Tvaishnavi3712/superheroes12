@@ -1,0 +1,7 @@
+utils\QaProperties.class
+utils\TestngListener.class
+models\SuperHeroes.class
+utils\JsonInputParser.class
+utils\EndPoints.class
+runner\TestRunner.class
+step_definitions\MyStepdefs.class

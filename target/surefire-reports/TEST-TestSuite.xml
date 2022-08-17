@@ -1,0 +1,1215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="7.74" tests="15" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Abigail\IdeaProjects\sprint-2\target\test-classes;C:\Users\Abigail\IdeaProjects\sprint-2\target\classes;C:\Users\Abigail\.m2\repository\io\rest-assured\rest-assured\5.1.1\rest-assured-5.1.1.jar;C:\Users\Abigail\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\Abigail\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\Abigail\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Abigail\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Abigail\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Abigail\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Abigail\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Abigail\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Abigail\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Abigail\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar;C:\Users\Abigail\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\Abigail\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar;C:\Users\Abigail\.m2\repository\io\rest-assured\xml-path\5.1.1\xml-path-5.1.1.jar;C:\Users\Abigail\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Abigail\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Abigail\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Abigail\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Abigail\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.2\jackson-core-2.13.2.jar;C:\Users\Abigail\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.2.2\jackson-databind-2.13.2.2.jar;C:\Users\Abigail\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.2\jackson-annotations-2.13.2.jar;C:\Users\Abigail\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;C:\Users\Abigail\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\Abigail\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Abigail\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\Abigail\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.0.0-M7\maven-surefire-plugin-3.0.0-M7.jar;C:\Users\Abigail\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.0.0-M7\maven-surefire-common-3.0.0-M7.jar;C:\Users\Abigail\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M7\surefire-api-3.0.0-M7.jar;C:\Users\Abigail\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M7\surefire-logger-api-3.0.0-M7.jar;C:\Users\Abigail\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.0.0-M7\surefire-extensions-api-3.0.0-M7.jar;C:\Users\Abigail\.m2\repository\org\apache\maven\surefire\surefire-booter\3.0.0-M7\surefire-booter-3.0.0-M7.jar;C:\Users\Abigail\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.0.0-M7\surefire-extensions-spi-3.0.0-M7.jar;C:\Users\Abigail\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.1.1\maven-common-artifact-filters-3.1.1.jar;C:\Users\Abigail\.m2\repository\org\apache\maven\maven-artifact\3.1.0\maven-artifact-3.1.0.jar;C:\Users\Abigail\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.10\plexus-utils-3.0.10.jar;C:\Users\Abigail\.m2\repository\org\apache\maven\maven-core\3.1.0\maven-core-3.1.0.jar;C:\Users\Abigail\.m2\repository\org\apache\maven\maven-settings\3.1.0\maven-settings-3.1.0.jar;C:\Users\Abigail\.m2\repository\org\apache\maven\maven-settings-builder\3.1.0\maven-settings-builder-3.1.0.jar;C:\Users\Abigail\.m2\repository\org\apache\maven\maven-repository-metadata\3.1.0\maven-repository-metadata-3.1.0.jar;C:\Users\Abigail\.m2\repository\org\apache\maven\maven-model-builder\3.1.0\maven-model-builder-3.1.0.jar;C:\Users\Abigail\.m2\repository\org\apache\maven\maven-aether-provider\3.1.0\maven-aether-provider-3.1.0.jar;C:\Users\Abigail\.m2\repository\org\eclipse\aether\aether-spi\0.9.0.M2\aether-spi-0.9.0.M2.jar;C:\Users\Abigail\.m2\repository\org\eclipse\aether\aether-impl\0.9.0.M2\aether-impl-0.9.0.M2.jar;C:\Users\Abigail\.m2\repository\org\eclipse\aether\aether-api\0.9.0.M2\aether-api-0.9.0.M2.jar;C:\Users\Abigail\.m2\repository\org\eclipse\aether\aether-util\0.9.0.M2\aether-util-0.9.0.M2.jar;C:\Users\Abigail\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.0.0.M2a\org.eclipse.sisu.plexus-0.0.0.M2a.jar;C:\Users\Abigail\.m2\repository\javax\enterprise\cdi-api\1.0\cdi-api-1.0.jar;C:\Users\Abigail\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar;C:\Users\Abigail\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Abigail\.m2\repository\org\sonatype\sisu\sisu-guice\3.1.0\sisu-guice-3.1.0-no_aop.jar;C:\Users\Abigail\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Abigail\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.0.0.M2a\org.eclipse.sisu.inject-0.0.0.M2a.jar;C:\Users\Abigail\.m2\repository\asm\asm\3.3.1\asm-3.3.1.jar;C:\Users\Abigail\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.16\plexus-interpolation-1.16.jar;C:\Users\Abigail\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.4.2\plexus-classworlds-2.4.2.jar;C:\Users\Abigail\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\Abigail\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar;C:\Users\Abigail\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\Abigail\.m2\repository\org\apache\maven\maven-plugin-api\3.1.0\maven-plugin-api-3.1.0.jar;C:\Users\Abigail\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Abigail\.m2\repository\org\codehaus\plexus\plexus-java\1.1.1\plexus-java-1.1.1.jar;C:\Users\Abigail\.m2\repository\org\ow2\asm\asm\9.2\asm-9.2.jar;C:\Users\Abigail\.m2\repository\com\thoughtworks\qdox\qdox\2.0.1\qdox-2.0.1.jar;C:\Users\Abigail\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.0.0-M7\surefire-shared-utils-3.0.0-M7.jar;C:\Users\Abigail\.m2\repository\io\rest-assured\json-schema-validator\5.1.1\json-schema-validator-5.1.1.jar;C:\Users\Abigail\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Abigail\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\Abigail\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Abigail\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Abigail\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\Abigail\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\Abigail\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Abigail\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Abigail\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Abigail\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Abigail\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Abigail\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Abigail\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Abigail\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Abigail\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Abigail\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Abigail\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Abigail\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Abigail\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Abigail\.m2\repository\io\cucumber\cucumber-java\6.9.1\cucumber-java-6.9.1.jar;C:\Users\Abigail\.m2\repository\io\cucumber\cucumber-core\6.9.1\cucumber-core-6.9.1.jar;C:\Users\Abigail\.m2\repository\io\cucumber\cucumber-gherkin\6.9.1\cucumber-gherkin-6.9.1.jar;C:\Users\Abigail\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.9.1\cucumber-gherkin-messages-6.9.1.jar;C:\Users\Abigail\.m2\repository\io\cucumber\messages\13.2.1\messages-13.2.1.jar;C:\Users\Abigail\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\Abigail\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\Abigail\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\Abigail\.m2\repository\io\cucumber\cucumber-plugin\6.9.1\cucumber-plugin-6.9.1.jar;C:\Users\Abigail\.m2\repository\io\cucumber\docstring\6.9.1\docstring-6.9.1.jar;C:\Users\Abigail\.m2\repository\io\cucumber\html-formatter\9.0.0\html-formatter-9.0.0.jar;C:\Users\Abigail\.m2\repository\io\cucumber\create-meta\2.0.4\create-meta-2.0.4.jar;C:\Users\Abigail\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Abigail\.m2\repository\io\cucumber\cucumber-testng\6.9.1\cucumber-testng-6.9.1.jar;C:\Users\Abigail\.m2\repository\org\springframework\security\spring-security-config\5.7.2\spring-security-config-5.7.2.jar;C:\Users\Abigail\.m2\repository\org\springframework\security\spring-security-core\5.7.2\spring-security-core-5.7.2.jar;C:\Users\Abigail\.m2\repository\org\springframework\security\spring-security-crypto\5.7.2\spring-security-crypto-5.7.2.jar;C:\Users\Abigail\.m2\repository\org\springframework\spring-aop\5.3.21\spring-aop-5.3.21.jar;C:\Users\Abigail\.m2\repository\org\springframework\spring-beans\5.3.21\spring-beans-5.3.21.jar;C:\Users\Abigail\.m2\repository\org\springframework\spring-context\5.3.21\spring-context-5.3.21.jar;C:\Users\Abigail\.m2\repository\org\springframework\spring-core\5.3.21\spring-core-5.3.21.jar;C:\Users\Abigail\.m2\repository\org\springframework\spring-jcl\5.3.21\spring-jcl-5.3.21.jar;C:\Users\Abigail\.m2\repository\org\springframework\security\spring-security-web\5.7.2\spring-security-web-5.7.2.jar;C:\Users\Abigail\.m2\repository\org\springframework\spring-expression\5.3.21\spring-expression-5.3.21.jar;C:\Users\Abigail\.m2\repository\org\springframework\spring-web\5.3.21\spring-web-5.3.21.jar;C:\Users\Abigail\.m2\repository\org\springframework\spring-test\5.3.22\spring-test-5.3.22.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\java-1\bin"/>
+    <property name="sun.java.command" value="C:\Users\Abigail\AppData\Local\Temp\surefire18118604704959165468\surefirebooter-20220817124238652_3.jar C:\Users\Abigail\AppData\Local\Temp\surefire18118604704959165468 2022-08-17T12-42-38_265-jvmRun1 surefire-20220817124238652_1tmp surefire_0-20220817124238652_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Abigail\IdeaProjects\sprint-2\target\test-classes;C:\Users\Abigail\IdeaProjects\sprint-2\target\classes;C:\Users\Abigail\.m2\repository\io\rest-assured\rest-assured\5.1.1\rest-assured-5.1.1.jar;C:\Users\Abigail\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\Abigail\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\Abigail\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Abigail\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Abigail\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Abigail\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Abigail\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Abigail\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Abigail\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Abigail\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar;C:\Users\Abigail\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\Abigail\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar;C:\Users\Abigail\.m2\repository\io\rest-assured\xml-path\5.1.1\xml-path-5.1.1.jar;C:\Users\Abigail\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Abigail\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Abigail\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Abigail\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Abigail\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.2\jackson-core-2.13.2.jar;C:\Users\Abigail\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.2.2\jackson-databind-2.13.2.2.jar;C:\Users\Abigail\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.2\jackson-annotations-2.13.2.jar;C:\Users\Abigail\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;C:\Users\Abigail\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\Abigail\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Abigail\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\Abigail\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.0.0-M7\maven-surefire-plugin-3.0.0-M7.jar;C:\Users\Abigail\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.0.0-M7\maven-surefire-common-3.0.0-M7.jar;C:\Users\Abigail\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M7\surefire-api-3.0.0-M7.jar;C:\Users\Abigail\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M7\surefire-logger-api-3.0.0-M7.jar;C:\Users\Abigail\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.0.0-M7\surefire-extensions-api-3.0.0-M7.jar;C:\Users\Abigail\.m2\repository\org\apache\maven\surefire\surefire-booter\3.0.0-M7\surefire-booter-3.0.0-M7.jar;C:\Users\Abigail\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.0.0-M7\surefire-extensions-spi-3.0.0-M7.jar;C:\Users\Abigail\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.1.1\maven-common-artifact-filters-3.1.1.jar;C:\Users\Abigail\.m2\repository\org\apache\maven\maven-artifact\3.1.0\maven-artifact-3.1.0.jar;C:\Users\Abigail\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.10\plexus-utils-3.0.10.jar;C:\Users\Abigail\.m2\repository\org\apache\maven\maven-core\3.1.0\maven-core-3.1.0.jar;C:\Users\Abigail\.m2\repository\org\apache\maven\maven-settings\3.1.0\maven-settings-3.1.0.jar;C:\Users\Abigail\.m2\repository\org\apache\maven\maven-settings-builder\3.1.0\maven-settings-builder-3.1.0.jar;C:\Users\Abigail\.m2\repository\org\apache\maven\maven-repository-metadata\3.1.0\maven-repository-metadata-3.1.0.jar;C:\Users\Abigail\.m2\repository\org\apache\maven\maven-model-builder\3.1.0\maven-model-builder-3.1.0.jar;C:\Users\Abigail\.m2\repository\org\apache\maven\maven-aether-provider\3.1.0\maven-aether-provider-3.1.0.jar;C:\Users\Abigail\.m2\repository\org\eclipse\aether\aether-spi\0.9.0.M2\aether-spi-0.9.0.M2.jar;C:\Users\Abigail\.m2\repository\org\eclipse\aether\aether-impl\0.9.0.M2\aether-impl-0.9.0.M2.jar;C:\Users\Abigail\.m2\repository\org\eclipse\aether\aether-api\0.9.0.M2\aether-api-0.9.0.M2.jar;C:\Users\Abigail\.m2\repository\org\eclipse\aether\aether-util\0.9.0.M2\aether-util-0.9.0.M2.jar;C:\Users\Abigail\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.0.0.M2a\org.eclipse.sisu.plexus-0.0.0.M2a.jar;C:\Users\Abigail\.m2\repository\javax\enterprise\cdi-api\1.0\cdi-api-1.0.jar;C:\Users\Abigail\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar;C:\Users\Abigail\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Abigail\.m2\repository\org\sonatype\sisu\sisu-guice\3.1.0\sisu-guice-3.1.0-no_aop.jar;C:\Users\Abigail\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Abigail\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.0.0.M2a\org.eclipse.sisu.inject-0.0.0.M2a.jar;C:\Users\Abigail\.m2\repository\asm\asm\3.3.1\asm-3.3.1.jar;C:\Users\Abigail\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.16\plexus-interpolation-1.16.jar;C:\Users\Abigail\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.4.2\plexus-classworlds-2.4.2.jar;C:\Users\Abigail\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\Abigail\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar;C:\Users\Abigail\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\Abigail\.m2\repository\org\apache\maven\maven-plugin-api\3.1.0\maven-plugin-api-3.1.0.jar;C:\Users\Abigail\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Abigail\.m2\repository\org\codehaus\plexus\plexus-java\1.1.1\plexus-java-1.1.1.jar;C:\Users\Abigail\.m2\repository\org\ow2\asm\asm\9.2\asm-9.2.jar;C:\Users\Abigail\.m2\repository\com\thoughtworks\qdox\qdox\2.0.1\qdox-2.0.1.jar;C:\Users\Abigail\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.0.0-M7\surefire-shared-utils-3.0.0-M7.jar;C:\Users\Abigail\.m2\repository\io\rest-assured\json-schema-validator\5.1.1\json-schema-validator-5.1.1.jar;C:\Users\Abigail\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Abigail\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\Abigail\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Abigail\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Abigail\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\Abigail\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\Abigail\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Abigail\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Abigail\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Abigail\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Abigail\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Abigail\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Abigail\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Abigail\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Abigail\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Abigail\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Abigail\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Abigail\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Abigail\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Abigail\.m2\repository\io\cucumber\cucumber-java\6.9.1\cucumber-java-6.9.1.jar;C:\Users\Abigail\.m2\repository\io\cucumber\cucumber-core\6.9.1\cucumber-core-6.9.1.jar;C:\Users\Abigail\.m2\repository\io\cucumber\cucumber-gherkin\6.9.1\cucumber-gherkin-6.9.1.jar;C:\Users\Abigail\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.9.1\cucumber-gherkin-messages-6.9.1.jar;C:\Users\Abigail\.m2\repository\io\cucumber\messages\13.2.1\messages-13.2.1.jar;C:\Users\Abigail\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\Abigail\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\Abigail\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\Abigail\.m2\repository\io\cucumber\cucumber-plugin\6.9.1\cucumber-plugin-6.9.1.jar;C:\Users\Abigail\.m2\repository\io\cucumber\docstring\6.9.1\docstring-6.9.1.jar;C:\Users\Abigail\.m2\repository\io\cucumber\html-formatter\9.0.0\html-formatter-9.0.0.jar;C:\Users\Abigail\.m2\repository\io\cucumber\create-meta\2.0.4\create-meta-2.0.4.jar;C:\Users\Abigail\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Abigail\.m2\repository\io\cucumber\cucumber-testng\6.9.1\cucumber-testng-6.9.1.jar;C:\Users\Abigail\.m2\repository\org\springframework\security\spring-security-config\5.7.2\spring-security-config-5.7.2.jar;C:\Users\Abigail\.m2\repository\org\springframework\security\spring-security-core\5.7.2\spring-security-core-5.7.2.jar;C:\Users\Abigail\.m2\repository\org\springframework\security\spring-security-crypto\5.7.2\spring-security-crypto-5.7.2.jar;C:\Users\Abigail\.m2\repository\org\springframework\spring-aop\5.3.21\spring-aop-5.3.21.jar;C:\Users\Abigail\.m2\repository\org\springframework\spring-beans\5.3.21\spring-beans-5.3.21.jar;C:\Users\Abigail\.m2\repository\org\springframework\spring-context\5.3.21\spring-context-5.3.21.jar;C:\Users\Abigail\.m2\repository\org\springframework\spring-core\5.3.21\spring-core-5.3.21.jar;C:\Users\Abigail\.m2\repository\org\springframework\spring-jcl\5.3.21\spring-jcl-5.3.21.jar;C:\Users\Abigail\.m2\repository\org\springframework\security\spring-security-web\5.7.2\spring-security-web-5.7.2.jar;C:\Users\Abigail\.m2\repository\org\springframework\spring-expression\5.3.21\spring-expression-5.3.21.jar;C:\Users\Abigail\.m2\repository\org\springframework\spring-web\5.3.21\spring-web-5.3.21.jar;C:\Users\Abigail\.m2\repository\org\springframework\spring-test\5.3.22\spring-test-5.3.22.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Abigail"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="C:\java-1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Abigail\IdeaProjects\sprint-2"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Abigail\AppData\Local\Temp\surefire18118604704959165468\surefirebooter-20220817124238652_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18.0.2+9-61"/>
+    <property name="user.name" value="Abigail"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Abigail\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Abigail\AppData\Local\Temp\"/>
+    <property name="java.version" value="18.0.2"/>
+    <property name="user.dir" value="C:\Users\Abigail\IdeaProjects\sprint-2"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\java-1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\java-1\bin;C:\Program Files\apache-maven-3.8.6\bin;C:\Users\Abigail\AppData\Local\Microsoft\WindowsApps;C:\Users\Abigail\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.4\bin;;C:\Users\Abigail\AppData\Local\GitHubDesktop\bin;C:\java-1\bin;C:\Program Files\apache-maven-3.8.6\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="18.0.2+9-61"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Verify that the user is able to created&quot;, &quot;Optional[Super Heroes feature]&quot;](1)" classname="runner.TestRunner" time="1.671">
+    <system-out><![CDATA[
+Scenario: Verify that the user is able to created &amp#27;[90m# src/test/java/feature/SuperHeroes.feature:6&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser Details&amp#27;[0m                              &amp#27;[90m# step_definitions.MyStepdefs.userDetails()&amp#27;[0m
+Request method:	POST
+Request URI:	http://localhost:8090/heroes
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 0,
+    "name": "Tony",
+    "superName": "Fighter",
+    "profession": "Avenger",
+    "age": 50,
+    "canFly": true
+}
+HTTP/1.1 201 
+Set-Cookie: JSESSIONID=0BB809E2E110F6F2CACFFEAC768E14B9; Path=/; HttpOnly
+Location: http://localhost:8090/1
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 17 Aug 2022 07:12:41 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 1,
+    "name": "Tony",
+    "superName": "Fighter",
+    "profession": "Avenger",
+    "age": 50,
+    "canFly": true
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mcreating a User&amp#27;[0m                            &amp#27;[90m# step_definitions.MyStepdefs.creatingAUser()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser must Created&amp#27;[0m                          &amp#27;[90m# step_definitions.MyStepdefs.userMustCreated()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify that the user is not able to create with no name&quot;, &quot;Optional[Super Heroes feature]&quot;](2)" classname="runner.TestRunner" time="0.503">
+    <system-out><![CDATA[
+Scenario: Verify that the user is not able to create with no name &amp#27;[90m# src/test/java/feature/SuperHeroes.feature:10&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser Details&amp#27;[0m                                              &amp#27;[90m# step_definitions.MyStepdefs.userDetails()&amp#27;[0m
+Request method:	POST
+Request URI:	http://localhost:8090/heroes
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 0,
+    "name": null,
+    "superName": "Fighter",
+    "profession": "Avenger",
+    "age": 50,
+    "canFly": true
+}
+HTTP/1.1 400 
+Set-Cookie: JSESSIONID=66E2E3EE8E4470ED21B6FBD78DC97581; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 17 Aug 2022 07:12:41 GMT
+Connection: close
+
+{
+    "message": "Name is required"
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mcreating a user with no name&amp#27;[0m                               &amp#27;[90m# step_definitions.MyStepdefs.creatingAUserWithNoName()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mName is required error thrown&amp#27;[0m                              &amp#27;[90m# step_definitions.MyStepdefs.nameIsRequiredErrorThrown()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify that the user is not able to create with no super name&quot;, &quot;Optional[Super Heroes feature]&quot;](3)" classname="runner.TestRunner" time="0.106">
+    <system-out><![CDATA[
+Scenario: Verify that the user is not able to create with no super name &amp#27;[90m# src/test/java/feature/SuperHeroes.feature:14&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser Details&amp#27;[0m                                                    &amp#27;[90m# step_definitions.MyStepdefs.userDetails()&amp#27;[0m
+Request method:	POST
+Request URI:	http://localhost:8090/heroes
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 0,
+    "name": "Tony",
+    "superName": null,
+    "profession": "Avenger",
+    "age": 50,
+    "canFly": true
+}
+HTTP/1.1 400 
+Set-Cookie: JSESSIONID=8B2BC10FC41455E7A9B24AA3F308C868; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 17 Aug 2022 07:12:41 GMT
+Connection: close
+
+{
+    "message": "Super Name is required"
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mCreating a user with no super name&amp#27;[0m                               &amp#27;[90m# step_definitions.MyStepdefs.creatingAUserWithNoSuperName()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mSuper name is required error thrown&amp#27;[0m                              &amp#27;[90m# step_definitions.MyStepdefs.superNameIsRequiredErrorThrown()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify that the user is  not able to create with no profession&quot;, &quot;Optional[Super Heroes feature]&quot;](4)" classname="runner.TestRunner" time="0.096">
+    <system-out><![CDATA[
+Scenario: Verify that the user is  not able to create with no profession &amp#27;[90m# src/test/java/feature/SuperHeroes.feature:18&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser Details&amp#27;[0m                                                     &amp#27;[90m# step_definitions.MyStepdefs.userDetails()&amp#27;[0m
+Request method:	POST
+Request URI:	http://localhost:8090/heroes
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 0,
+    "name": "Tony",
+    "superName": "Fighter",
+    "profession": null,
+    "age": 50,
+    "canFly": true
+}
+HTTP/1.1 400 
+Set-Cookie: JSESSIONID=9CC42A0E2442E2BCE8686B7D51CF7802; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 17 Aug 2022 07:12:41 GMT
+Connection: close
+
+{
+    "message": "Profession is required"
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mCreating user with no profession&amp#27;[0m                                  &amp#27;[90m# step_definitions.MyStepdefs.creatingUserWithNoProfession()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mprofession is required error thrown&amp#27;[0m                               &amp#27;[90m# step_definitions.MyStepdefs.professionIsRequiredErrorThrown()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify that the user is  not able to create with blank age&quot;, &quot;Optional[Super Heroes feature]&quot;](5)" classname="runner.TestRunner" time="0.097">
+    <system-out><![CDATA[
+Scenario: Verify that the user is  not able to create with blank age &amp#27;[90m# src/test/java/feature/SuperHeroes.feature:22&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser Details&amp#27;[0m                                                 &amp#27;[90m# step_definitions.MyStepdefs.userDetails()&amp#27;[0m
+Request method:	POST
+Request URI:	http://localhost:8090/heroes
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 0,
+    "name": "Tony",
+    "superName": "Fighter",
+    "profession": "Avenger",
+    "age": 0,
+    "canFly": true
+}
+HTTP/1.1 400 
+Set-Cookie: JSESSIONID=013937D10FE9DBE3DCC949D83AFAE36C; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 17 Aug 2022 07:12:42 GMT
+Connection: close
+
+{
+    "message": "Age is required"
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mCreating user with no age&amp#27;[0m                                     &amp#27;[90m# step_definitions.MyStepdefs.creatingUserWithNoAge()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mAge is required error thrown&amp#27;[0m                                  &amp#27;[90m# step_definitions.MyStepdefs.ageIsRequiredErrorThrown()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify that the user is created with blank canFly status&quot;, &quot;Optional[Super Heroes feature]&quot;](6)" classname="runner.TestRunner" time="0.089">
+    <system-out><![CDATA[
+Scenario: Verify that the user is created with blank canFly status &amp#27;[90m# src/test/java/feature/SuperHeroes.feature:26&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser Details&amp#27;[0m                                               &amp#27;[90m# step_definitions.MyStepdefs.userDetails()&amp#27;[0m
+Request method:	POST
+Request URI:	http://localhost:8090/heroes
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 0,
+    "name": "Tony",
+    "superName": "Fighter",
+    "profession": "Avenger",
+    "age": 50,
+    "canFly": false
+}
+HTTP/1.1 201 
+Set-Cookie: JSESSIONID=A1F40FA955E46EAE51F6BD90050EA0A5; Path=/; HttpOnly
+Location: http://localhost:8090/2
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 17 Aug 2022 07:12:42 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 2,
+    "name": "Tony",
+    "superName": "Fighter",
+    "profession": "Avenger",
+    "age": 50,
+    "canFly": false
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mCreating user with blank canFly&amp#27;[0m                             &amp#27;[90m# step_definitions.MyStepdefs.creatingUserWithBlankCanFly()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser must Created&amp#27;[0m                                           &amp#27;[90m# step_definitions.MyStepdefs.userMustCreated()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify that the user name is updated&quot;, &quot;Optional[Super Heroes feature]&quot;](7)" classname="runner.TestRunner" time="0.195">
+    <system-out><![CDATA[
+Scenario: Verify that the user name is updated &amp#27;[90m# src/test/java/feature/SuperHeroes.feature:30&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser Details&amp#27;[0m                           &amp#27;[90m# step_definitions.MyStepdefs.userDetails()&amp#27;[0m
+Request method:	POST
+Request URI:	http://localhost:8090/heroes
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 0,
+    "name": "Tony",
+    "superName": "Fighter",
+    "profession": "Avenger",
+    "age": 50,
+    "canFly": true
+}
+HTTP/1.1 201 
+Set-Cookie: JSESSIONID=8EEC772602602ED9AA57F9CD86B0C761; Path=/; HttpOnly
+Location: http://localhost:8090/3
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 17 Aug 2022 07:12:42 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 3,
+    "name": "Tony",
+    "superName": "Fighter",
+    "profession": "Avenger",
+    "age": 50,
+    "canFly": true
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mcreating a User&amp#27;[0m                         &amp#27;[90m# step_definitions.MyStepdefs.creatingAUser()&amp#27;[0m
+Request method:	PUT
+Request URI:	http://localhost:8090/heroes/3
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 0,
+    "name": "Tony",
+    "superName": "Fighter",
+    "profession": "Avenger",
+    "age": 50,
+    "canFly": true
+}
+HTTP/1.1 200 
+Set-Cookie: JSESSIONID=FA719494202253E30C947268925A07CF; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 17 Aug 2022 07:12:42 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 3,
+    "name": "Tony",
+    "superName": "Fighter",
+    "profession": "Avenger",
+    "age": 50,
+    "canFly": true
+}
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mupdating a user name&amp#27;[0m                     &amp#27;[90m# step_definitions.MyStepdefs.updatingAUserName()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser name must be updated&amp#27;[0m               &amp#27;[90m# step_definitions.MyStepdefs.userNameMustBeUpdated()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify that the user super name is updated&quot;, &quot;Optional[Super Heroes feature]&quot;](8)" classname="runner.TestRunner" time="0.164">
+    <system-out><![CDATA[
+Scenario: Verify that the user super name is updated &amp#27;[90m# src/test/java/feature/SuperHeroes.feature:35&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser Details&amp#27;[0m                                 &amp#27;[90m# step_definitions.MyStepdefs.userDetails()&amp#27;[0m
+Request method:	POST
+Request URI:	http://localhost:8090/heroes
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 0,
+    "name": "Tony",
+    "superName": "Fighter",
+    "profession": "Avenger",
+    "age": 50,
+    "canFly": true
+}
+HTTP/1.1 201 
+Set-Cookie: JSESSIONID=A994ADE6C7BD80373799F2BA41EAF25D; Path=/; HttpOnly
+Location: http://localhost:8090/4
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 17 Aug 2022 07:12:42 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 4,
+    "name": "Tony",
+    "superName": "Fighter",
+    "profession": "Avenger",
+    "age": 50,
+    "canFly": true
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mcreating a User&amp#27;[0m                               &amp#27;[90m# step_definitions.MyStepdefs.creatingAUser()&amp#27;[0m
+Request method:	PUT
+Request URI:	http://localhost:8090/heroes/4
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 0,
+    "name": "Tony",
+    "superName": "Fighter",
+    "profession": "Avenger",
+    "age": 50,
+    "canFly": true
+}
+HTTP/1.1 200 
+Set-Cookie: JSESSIONID=D0BC2345631E1486C29D31B8CE4104B6; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 17 Aug 2022 07:12:42 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 4,
+    "name": "Tony",
+    "superName": "Fighter",
+    "profession": "Avenger",
+    "age": 50,
+    "canFly": true
+}
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mupdating super name of user&amp#27;[0m                    &amp#27;[90m# step_definitions.MyStepdefs.updatingSuperNameOfUser()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser super name must be updated&amp#27;[0m               &amp#27;[90m# step_definitions.MyStepdefs.userSuperNameMustBeUpdated()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify that the user profession is updated&quot;, &quot;Optional[Super Heroes feature]&quot;](9)" classname="runner.TestRunner" time="0.165">
+    <system-out><![CDATA[
+Scenario: Verify that the user profession is updated &amp#27;[90m# src/test/java/feature/SuperHeroes.feature:40&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser Details&amp#27;[0m                                 &amp#27;[90m# step_definitions.MyStepdefs.userDetails()&amp#27;[0m
+Request method:	POST
+Request URI:	http://localhost:8090/heroes
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 0,
+    "name": "Tony",
+    "superName": "Fighter",
+    "profession": "Avenger",
+    "age": 50,
+    "canFly": true
+}
+HTTP/1.1 201 
+Set-Cookie: JSESSIONID=9C55C56C73AB39AFAC358E270351A0DD; Path=/; HttpOnly
+Location: http://localhost:8090/5
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 17 Aug 2022 07:12:42 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 5,
+    "name": "Tony",
+    "superName": "Fighter",
+    "profession": "Avenger",
+    "age": 50,
+    "canFly": true
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mcreating a User&amp#27;[0m                               &amp#27;[90m# step_definitions.MyStepdefs.creatingAUser()&amp#27;[0m
+Request method:	PUT
+Request URI:	http://localhost:8090/heroes/5
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 0,
+    "name": "Tony",
+    "superName": "Fighter",
+    "profession": "Avenger",
+    "age": 50,
+    "canFly": true
+}
+HTTP/1.1 200 
+Set-Cookie: JSESSIONID=18F0D612FAAD4C7D0E06663A23B76697; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 17 Aug 2022 07:12:42 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 5,
+    "name": "Tony",
+    "superName": "Fighter",
+    "profession": "Avenger",
+    "age": 50,
+    "canFly": true
+}
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mupdating profession of user&amp#27;[0m                    &amp#27;[90m# step_definitions.MyStepdefs.updatingProfessionOfUser()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser profession must be updated&amp#27;[0m               &amp#27;[90m# step_definitions.MyStepdefs.userProfessionMustBeUpdated()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify that the user age is updated&quot;, &quot;Optional[Super Heroes feature]&quot;](10)" classname="runner.TestRunner" time="0.16">
+    <system-out><![CDATA[
+Scenario: Verify that the user age is updated &amp#27;[90m# src/test/java/feature/SuperHeroes.feature:45&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser Details&amp#27;[0m                          &amp#27;[90m# step_definitions.MyStepdefs.userDetails()&amp#27;[0m
+Request method:	POST
+Request URI:	http://localhost:8090/heroes
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 0,
+    "name": "Tony",
+    "superName": "Fighter",
+    "profession": "Avenger",
+    "age": 50,
+    "canFly": true
+}
+HTTP/1.1 201 
+Set-Cookie: JSESSIONID=7FF28083AA99F1C7AE8701AF49641289; Path=/; HttpOnly
+Location: http://localhost:8090/6
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 17 Aug 2022 07:12:42 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 6,
+    "name": "Tony",
+    "superName": "Fighter",
+    "profession": "Avenger",
+    "age": 50,
+    "canFly": true
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mcreating a User&amp#27;[0m                        &amp#27;[90m# step_definitions.MyStepdefs.creatingAUser()&amp#27;[0m
+Request method:	PUT
+Request URI:	http://localhost:8090/heroes/6
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 0,
+    "name": "Tony",
+    "superName": "Fighter",
+    "profession": "Avenger",
+    "age": 50,
+    "canFly": true
+}
+HTTP/1.1 200 
+Set-Cookie: JSESSIONID=0FB7F010FA01AC1F4187A7D349A12EAC; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 17 Aug 2022 07:12:42 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 6,
+    "name": "Tony",
+    "superName": "Fighter",
+    "profession": "Avenger",
+    "age": 50,
+    "canFly": true
+}
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mupdating age of user&amp#27;[0m                    &amp#27;[90m# step_definitions.MyStepdefs.updatingAgeOfUser()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser age must be updated&amp#27;[0m               &amp#27;[90m# step_definitions.MyStepdefs.userAgeMustBeUpdated()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify that the user canFly status is updated&quot;, &quot;Optional[Super Heroes feature]&quot;](11)" classname="runner.TestRunner" time="0.169">
+    <system-out><![CDATA[
+Scenario: Verify that the user canFly status is updated &amp#27;[90m# src/test/java/feature/SuperHeroes.feature:50&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser Details&amp#27;[0m                                    &amp#27;[90m# step_definitions.MyStepdefs.userDetails()&amp#27;[0m
+Request method:	POST
+Request URI:	http://localhost:8090/heroes
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 0,
+    "name": "Tony",
+    "superName": "Fighter",
+    "profession": "Avenger",
+    "age": 50,
+    "canFly": true
+}
+HTTP/1.1 201 
+Set-Cookie: JSESSIONID=FABCB1ECC464130A1752BF8F8CC32954; Path=/; HttpOnly
+Location: http://localhost:8090/7
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 17 Aug 2022 07:12:42 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 7,
+    "name": "Tony",
+    "superName": "Fighter",
+    "profession": "Avenger",
+    "age": 50,
+    "canFly": true
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mcreating a User&amp#27;[0m                                  &amp#27;[90m# step_definitions.MyStepdefs.creatingAUser()&amp#27;[0m
+Request method:	PUT
+Request URI:	http://localhost:8090/heroes/7
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 0,
+    "name": "Tony",
+    "superName": "Fighter",
+    "profession": "Avenger",
+    "age": 50,
+    "canFly": true
+}
+HTTP/1.1 200 
+Set-Cookie: JSESSIONID=58C892273E0BE143FDA3E6FA4E534934; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 17 Aug 2022 07:12:42 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 7,
+    "name": "Tony",
+    "superName": "Fighter",
+    "profession": "Avenger",
+    "age": 50,
+    "canFly": true
+}
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mupdating canFly  status of user&amp#27;[0m                   &amp#27;[90m# step_definitions.MyStepdefs.updatingCanFlyStatusOfUser()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser canFly status must be updated&amp#27;[0m               &amp#27;[90m# step_definitions.MyStepdefs.userCanFlyStatusMustBeUpdated()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify that the users list is displayed&quot;, &quot;Optional[Super Heroes feature]&quot;](12)" classname="runner.TestRunner" time="0.229">
+    <system-out><![CDATA[
+Scenario: Verify that the users list is displayed &amp#27;[90m# src/test/java/feature/SuperHeroes.feature:55&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser Details&amp#27;[0m                              &amp#27;[90m# step_definitions.MyStepdefs.userDetails()&amp#27;[0m
+Request method:	POST
+Request URI:	http://localhost:8090/heroes
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 0,
+    "name": "Tony",
+    "superName": "Fighter",
+    "profession": "Avenger",
+    "age": 50,
+    "canFly": true
+}
+HTTP/1.1 201 
+Set-Cookie: JSESSIONID=0A52D53B5C187E13BC4A083BD962C19A; Path=/; HttpOnly
+Location: http://localhost:8090/8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 17 Aug 2022 07:12:43 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 8,
+    "name": "Tony",
+    "superName": "Fighter",
+    "profession": "Avenger",
+    "age": 50,
+    "canFly": true
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mcreating a User&amp#27;[0m                            &amp#27;[90m# step_definitions.MyStepdefs.creatingAUser()&amp#27;[0m
+Request method:	GET
+Request URI:	http://localhost:8090/heroes
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Set-Cookie: JSESSIONID=D8677C0D57D2129D79BE066DBE56CCD3; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 17 Aug 2022 07:12:43 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+[
+    {
+        "id": 1,
+        "name": "Tony",
+        "superName": "Fighter",
+        "profession": "Avenger",
+        "age": 50,
+        "canFly": true
+    },
+    {
+        "id": 2,
+        "name": "Tony",
+        "superName": "Fighter",
+        "profession": "Avenger",
+        "age": 50,
+        "canFly": false
+    },
+    {
+        "id": 3,
+        "name": "Tony",
+        "superName": "Fighter",
+        "profession": "Avenger",
+        "age": 50,
+        "canFly": true
+    },
+    {
+        "id": 4,
+        "name": "Tony",
+        "superName": "Fighter",
+        "profession": "Avenger",
+        "age": 50,
+        "canFly": true
+    },
+    {
+        "id": 5,
+        "name": "Tony",
+        "superName": "Fighter",
+        "profession": "Avenger",
+        "age": 50,
+        "canFly": true
+    },
+    {
+        "id": 6,
+        "name": "Tony",
+        "superName": "Fighter",
+        "profession": "Avenger",
+        "age": 50,
+        "canFly": true
+    },
+    {
+        "id": 7,
+        "name": "Tony",
+        "superName": "Fighter",
+        "profession": "Avenger",
+        "age": 50,
+        "canFly": true
+    },
+    {
+        "id": 8,
+        "name": "Tony",
+        "superName": "Fighter",
+        "profession": "Avenger",
+        "age": 50,
+        "canFly": true
+    }
+]
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mList of user must be displayed&amp#27;[0m             &amp#27;[90m# step_definitions.MyStepdefs.listOfUserMustBeDisplayed()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify that the particular user in the list is displayed&quot;, &quot;Optional[Super Heroes feature]&quot;](13)" classname="runner.TestRunner" time="0.151">
+    <system-out><![CDATA[
+Scenario: Verify that the particular user in the list is displayed &amp#27;[90m# src/test/java/feature/SuperHeroes.feature:59&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser Details&amp#27;[0m                                               &amp#27;[90m# step_definitions.MyStepdefs.userDetails()&amp#27;[0m
+Request method:	POST
+Request URI:	http://localhost:8090/heroes
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 0,
+    "name": "Tony",
+    "superName": "Fighter",
+    "profession": "Avenger",
+    "age": 50,
+    "canFly": true
+}
+HTTP/1.1 201 
+Set-Cookie: JSESSIONID=9A11C93FCB66FC1887ECB537A5C40194; Path=/; HttpOnly
+Location: http://localhost:8090/9
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 17 Aug 2022 07:12:43 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 9,
+    "name": "Tony",
+    "superName": "Fighter",
+    "profession": "Avenger",
+    "age": 50,
+    "canFly": true
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mcreating a User&amp#27;[0m                                             &amp#27;[90m# step_definitions.MyStepdefs.creatingAUser()&amp#27;[0m
+Request method:	GET
+Request URI:	http://localhost:8090/heroes/9
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Set-Cookie: JSESSIONID=D621632B16A65C49BBFC47D9500BAD62; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 17 Aug 2022 07:12:43 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 9,
+    "name": "Tony",
+    "superName": "Fighter",
+    "profession": "Avenger",
+    "age": 50,
+    "canFly": true
+}
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser with particular id must be displayed&amp#27;[0m                   &amp#27;[90m# step_definitions.MyStepdefs.userWithParticularIdMustBeDisplayed()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify that the user is deleted&quot;, &quot;Optional[Super Heroes feature]&quot;](14)" classname="runner.TestRunner" time="0.16">
+    <system-out><![CDATA[
+Scenario: Verify that the user is deleted &amp#27;[90m# src/test/java/feature/SuperHeroes.feature:63&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser Details&amp#27;[0m                      &amp#27;[90m# step_definitions.MyStepdefs.userDetails()&amp#27;[0m
+Request method:	POST
+Request URI:	http://localhost:8090/heroes
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 0,
+    "name": "Tony",
+    "superName": "Fighter",
+    "profession": "Avenger",
+    "age": 50,
+    "canFly": true
+}
+HTTP/1.1 201 
+Set-Cookie: JSESSIONID=3D02A21E25CE46162B60DE5D163CE193; Path=/; HttpOnly
+Location: http://localhost:8090/10
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 17 Aug 2022 07:12:43 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 10,
+    "name": "Tony",
+    "superName": "Fighter",
+    "profession": "Avenger",
+    "age": 50,
+    "canFly": true
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mcreating a User&amp#27;[0m                    &amp#27;[90m# step_definitions.MyStepdefs.creatingAUser()&amp#27;[0m
+Request method:	DELETE
+Request URI:	http://localhost:8090/heroes/10
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Set-Cookie: JSESSIONID=D42B9C9442322C9A4E1690C0FF964CFE; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Content-Length: 24
+Date: Wed, 17 Aug 2022 07:12:43 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+Deleted successfully...!
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mDeleting a user&amp#27;[0m                    &amp#27;[90m# step_definitions.MyStepdefs.deletingAUser()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify that the invalid user is deleted&quot;, &quot;Optional[Super Heroes feature]&quot;](15)" classname="runner.TestRunner" time="0.154">
+    <system-out><![CDATA[
+Scenario: Verify that the invalid user is deleted &amp#27;[90m# src/test/java/feature/SuperHeroes.feature:67&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser Details&amp#27;[0m                              &amp#27;[90m# step_definitions.MyStepdefs.userDetails()&amp#27;[0m
+Request method:	POST
+Request URI:	http://localhost:8090/heroes
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 0,
+    "name": "Tony",
+    "superName": "Fighter",
+    "profession": "Avenger",
+    "age": 50,
+    "canFly": true
+}
+HTTP/1.1 201 
+Set-Cookie: JSESSIONID=1195CB6EFA92DE75BB6894B9A67D0267; Path=/; HttpOnly
+Location: http://localhost:8090/11
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 17 Aug 2022 07:12:43 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 11,
+    "name": "Tony",
+    "superName": "Fighter",
+    "profession": "Avenger",
+    "age": 50,
+    "canFly": true
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mcreating a User&amp#27;[0m                            &amp#27;[90m# step_definitions.MyStepdefs.creatingAUser()&amp#27;[0m
+Request method:	DELETE
+Request URI:	http://localhost:8090/heroes/200
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Set-Cookie: JSESSIONID=19B1A09332BED2830034E665E354243A; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Content-Length: 24
+Date: Wed, 17 Aug 2022 07:12:43 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+Deleted successfully...!
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mDeleting a invalid user&amp#27;[0m                    &amp#27;[90m# step_definitions.MyStepdefs.deletingAInvalidUser()&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
